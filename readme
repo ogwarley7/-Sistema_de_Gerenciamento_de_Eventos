@@ -1,0 +1,42 @@
+# Sistema de Gerenciamento de Eventos
+
+## Descrição
+
+Este projeto implementa um sistema de gerenciamento de eventos, que permite a criação, gerenciamento e controle de eventos, participantes e inscrições. O sistema é implementado em MySQL e abrange a criação de banco de dados, tabelas, inserção de dados, consultas, atualizações e exclusões.
+
+## Estrutura do Projeto
+
+1. **Criação do Banco de Dados e Tabelas**
+   - `Eventos`: Armazena informações sobre os eventos.
+   - `Participantes`: Armazena informações sobre os participantes.
+   - `Inscricoes`: Armazena as inscrições dos participantes nos eventos.
+
+2. **Inserção de Dados**
+   - Adiciona eventos, participantes e inscrições ao banco de dados.
+
+3. **Consultas**
+   - Consultar todos os eventos disponíveis.
+   - Consultar participantes inscritos em eventos específicos.
+   - Verificar eventos nos quais um participante está inscrito.
+   - Listar participantes inscritos em múltiplos eventos.
+
+4. **Atualizações e Exclusões**
+   - Atualizar informações de eventos e participantes.
+   - Deletar eventos passados e cancelar inscrições.
+
+## Scripts SQL
+
+Os scripts SQL são fornecidos no arquivo principal do projeto e incluem:
+- Criação do banco de dados e tabelas.
+- Inserção de dados de exemplo.
+- Consultas para visualizar e manipular dados.
+- Atualizações e exclusões de registros.
+
+## Uso
+
+1. Execute o script para criar o banco de dados e tabelas.
+2. Insira os dados de exemplo fornecidos.
+3. Utilize as consultas para interagir com o banco de dados conforme necessário.
+4. Atualize ou exclua dados conforme necessário.
+
+
