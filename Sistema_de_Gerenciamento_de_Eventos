@@ -1,0 +1,45 @@
+: Sistema de Gerenciamento de Eventos
+
+Objetivo:
+Desenvolver um sistema completo de gerenciamento de eventos, que permita a criação, gerenciamento e controle de participantes e suas respectivas inscrições.
+
+Descrição do Projeto:
+Você foi contratado para criar um sistema que gerencia eventos em uma empresa. Este sistema deve armazenar informações sobre os eventos organizados, os participantes que se inscrevem e os detalhes das inscrições realizadas.
+
+Requisitos do Sistema:
+
+Criar o Banco de Dados:
+
+Utilizar o comando CREATE DATABASE para criar um banco de dados dedicado ao sistema de gerenciamento de eventos.
+Criar as Tabelas:
+
+Eventos: Armazenar informações como ID do evento, nome do evento, data, local e descrição.
+Participantes: Armazenar informações como ID do participante, nome, e-mail e telefone.
+Inscrições: Armazenar informações como ID da inscrição, ID do evento, ID do participante e data da inscrição.
+Utilizar o comando CREATE TABLE para criar as tabelas necessárias no banco de dados.
+Inserir Dados:
+
+Adicionar eventos à tabela de eventos utilizando o comando INSERT.
+Adicionar participantes à tabela de participantes.
+Registrar inscrições utilizando o comando INSERT, relacionando eventos e participantes.
+Consultar Dados:
+
+Realizar consultas para visualizar todos os eventos disponíveis.
+Consultar a lista de participantes inscritos em um evento específico.
+Verificar todos os eventos nos quais um determinado participante está inscrito.
+Utilizar o comando SELECT com e sem JOIN para realizar essas consultas.
+Atualizar Dados:
+
+Atualizar informações de eventos, como data ou local, utilizando o comando UPDATE.
+Modificar informações de contato dos participantes.
+Deletar Dados:
+
+Remover eventos passados do banco de dados utilizando o comando DELETE.
+Cancelar inscrições de participantes para determinados eventos.
+Tarefas Adicionais:
+
+Implementar funcionalidades extras, como listar todos os participantes que se inscreveram em mais de um evento.
+Criar uma interface simples em SQL para que os usuários possam interagir com o sistema.
+Entrega Final:
+O projeto deve ser entregue com o código SQL completo, contendo a criação do banco de dados, tabelas, inserção de dados, consultas, atualizações e exclusões.
+
